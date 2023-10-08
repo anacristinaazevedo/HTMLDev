@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Página Principal</a></li>
+                <li><a href="#">Horário de atendimento</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div align="center" class="header">
+                <img src="./Cabeçalho.png">
+            </div>
+            <div class="content">
+                <P>Agende uma consulta com nossos Especialsitas.
+                    <table align="center" border="3px">
+                        <tr>
+                            <td><strong>Serviços</strong></td>
+                            <td><strong>Segunda a Sexta</strong></td>
+                            <td><strong>Sábados</strong></td>
+                            <td><strong>Feriados</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Clínico geral</td>
+                            <td>08h - 19h </td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>08h - 19h </td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>08h - 19h </td>
+                            <td>08h - 14h</td>
+                            <td>Sem atendimento</td>
+                        </tr>
+                        <tr>
+                            <td>Oftalmologia</td>
+                            <td>08h - 19h </td>
+                            <td>08h - 14h</td>
+                            <td>Sem atendimento</td>
+                        </tr>
+                    </table>
+
+
+                
+
+                <h3><strong>Contato</strong></h3>
+                <P>Para agendar consulta por telefone: (11)3425-0001 ou preencha o formulário 
+                abaixo que entraremos em contato para confirmar.
+                
+                <P><P><FORM align="left">
+                    Nome: <INPUT TYPE=text NAME=nome>
+                    Telefone: <input type="number" namr=Numero>
+                    <P> Escolha a especialidade:
+                        <BR><INPUT TYPE=checkbox NAME=prog VALUE=geral> Clínica Geral
+                        <BR><INPUT TYPE=checkbox NAME=prog VALUE=psicologia> Psicologia
+                        <BR><INPUT TYPE=checkbox NAME=prog VALUE=pediatria> Pediatria
+                        <BR><INPUT TYPE=checkbox NAME=prog VALUE=oftalmologia> Oftalmologia
+                            <P> Forma de pagamento:</P>
+                                <SELECT NAME=pagamento>
+                                <OPTION VALUE=cartao>Cartão de Crédito
+                                <OPTION VALUE=dinheiro>Dinheiro ou Débito
+                                <OPTION VALUE=pix>PIX
+                                <OPTION VALUE=convenio>Convenio
+                                </SELECT>
+                                <P> Escreva sua solicitação de horário
+                                    <BR><TEXTAREA ROWS=6 COLS=40
+                                    NAME=pq>Mínimo de 3 linhas!</TEXTAREA>
+                    <P ALIGN=left> <INPUT TYPE=submit VALUE=Enviar> <INPUT
+                        TYPE=reset VALUE="Apagar Campos"> </P>
+                    </FORM>
+                    <P align="right"><h3>Estamos localizados próximo ao Parque Ibirapuera.</h3>
+                        <P><iframe align="left" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11788.340571187407!2d-46.668324111861885!3d-23.587096795413622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparque%20ibirapuera!5e1!3m2!1spt-BR!2sbr!4v1696720035874!5m2!1spt-BR!2sbr" 
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div align="right" class="footer">
+                <h3>Desenvolvido por Ana Cristina Azevedo.</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
